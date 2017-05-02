@@ -1,5 +1,4 @@
 highlighter: pygments
-markdown: redcarpet
 exclude: ['swag', 'd.diff', 'Capfile', 'config', 'public', 'Gemfile', 'Gemfile.lock', 'README.md']
 relative_permalinks: false
 timezone: America/Chicago
@@ -23,11 +22,4 @@ kramdown:
     coderay_bold_every:        10
     coderay_css:               style
 
-redcarpet:
-  extensions:
-    - hard_wrap
-    - no_intra_emphasis
-    - autolink
-    - strikethrough
-    - fenced_code_blocks
-    - footnotes
+

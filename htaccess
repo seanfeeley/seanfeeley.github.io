@@ -1,0 +1,8 @@
+---
+layout: nil
+permalink: ".htaccess"
+---
+
+#   Resume and projects
+Redirect 301 /hello  http://sean-feeley.com
+
