@@ -1,4 +1,4 @@
 
 # Provide Specific Index Page (Set the default handler)
-RedirectMatch 301 ^/map_magnets map_magnets.html
-RedirectMatch 301 ^/map_magnets/private_policy private_policy.html
+RedirectMatch 301 /map_magnets map_magnets.html
+RedirectMatch 301 /map_magnets/private_policy mm_private_policy.html
