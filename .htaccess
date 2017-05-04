@@ -1,7 +1,3 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
-
 # Provide Specific Index Page (Set the default handler)
 RedirectMatch 301 /map_magnets map_magnets.html
 RedirectMatch 301 /map_magnets/private_policy mm_private_policy.html
