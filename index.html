@@ -2,12 +2,12 @@
 <style>
 body {
     font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-    font-size: 17px;
+    font-size: 2em;
     line-height: 26px;
     background-color: #E9F2F9;
 }
 h1 {
-    font-size: 46.75px;
+    font-size: 2em;
     margin: 26px 16px 16px 16px;
     line-height: 52px;
     color: #3A89C9;
@@ -19,7 +19,7 @@ h2 {
     line-height: 52px;
     color: #3A89C9;
     text-align:left;
-    font-size: 38.25px;
+    font-size: 2em;
 }
 a {
     color: #F26C4F;
@@ -29,8 +29,17 @@ a {
 </style>
 </head>
 <body>
-
-<div style="text-align: center;">
+ 
+<div style="text-align: center;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;">
     <div style="display: inline-block; text-align: left">
   <h1>Hi. I'm Sean Feeley.</h1>
   <h2>I write <a href="https://github.com/seanfeeley">code</a>.</h2>
